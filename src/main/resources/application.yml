@@ -1,0 +1,22 @@
+server:
+  # 端口
+  port: 20229
+  #服务路径：
+  servlet:
+    context-path: /article
+spring:
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://服务器IP:3306/crawlarticle?useAffectedRows=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: 数据库用户名
+    password: 数据库密码
+# Mybatis-plus配置
+mybatis-plus:
+  #配置Mapper映射文件
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  configuration:
+    # 自动驼峰命名
+    map-underscore-to-camel-case: true
+    #日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
