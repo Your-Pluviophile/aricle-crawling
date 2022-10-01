@@ -33,7 +33,7 @@
 > <p align=center>🥙专门拍摄了一期视频讲解🥙</p>
 > 
 > 
-> <p align=center>🍵B站视频🍵</p>
+> <p align=center>🍵<a href="https://www.bilibili.com/video/BV14e4y1B7KF">B站视频</a>🍵</p>
 > 
 > <p align=center>🐎源码的分享🐎</p>
 > 
