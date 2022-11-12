@@ -11,11 +11,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author 小王八
- * @date 2022-09-05
- * @Description:
- */
 public class CodeGenerator {
 
     public static void main(String[] args) {
@@ -79,14 +74,6 @@ public class CodeGenerator {
                 .execute();
     }
 
-
-        /**
-          *处理 all 情况
-          * @param tables
-          * @return List<String>
-          * @author zhangjunrong
-          * @date 2022/9/19 21:11
-          */
         protected static List<String> getTables(String tables) {
             return "all".equals(tables) ? Collections.emptyList() : Arrays.asList(tables.split(","));
         }

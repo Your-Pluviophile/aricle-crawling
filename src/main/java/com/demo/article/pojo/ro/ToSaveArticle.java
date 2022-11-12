@@ -8,11 +8,6 @@ import lombok.experimental.Accessors;
 
 import java.time.LocalDateTime;
 
-/**
- * @Description 爬虫 保存文章
- * @Author 小乌龟
- * @Date 2022/8/1 22:36
- */
 @Data
 @Accessors(chain = true)
 @NoArgsConstructor

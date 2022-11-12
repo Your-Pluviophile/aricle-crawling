@@ -2,7 +2,6 @@
 
 ## <p align=center>🥦爬取案例-网易新闻🥦</p>
 
-<p align=center><img src="https://foruda.gitee.com/images/1664606270776700592/c9ce186a_8992400.png" alt=""></p>
 
 > 温馨提示: 爬取网易新闻全部资源 需要二次爬取(爬第一次的链接后再爬取获取作者 时间 图片) 对于网易导入的外部资源链接(无法处理) 爬取少量信息
 
@@ -22,24 +21,5 @@
 
 <p align=center><img src="https://foruda.gitee.com/images/1664607242994391047/a2c8bf05_8992400.png " alt=""></p>
 
-## <p align=center>🥑项目详细介绍🥑</p>
-
-> `<p align=center>🥰爬取网页资源🥰    </p>
-> 
-> 
-> <p align=center>🥐项目通俗易懂(注释多)🥐</p>
-> 
-> 
-> <p align=center>🥙专门拍摄了一期视频讲解🥙</p>
-> 
-> 
-> <p align=center>🍵<a href="https://www.bilibili.com/video/BV14e4y1B7KF">B站视频</a>🍵</p>
-> 
-> <p align=center>🐎源码的分享🐎</p>
-> 
-> <p align=center>🦌视频简介中🦌</p>
-> 
-> 
-> <p align=center>🫖制作不易 望大家给个三连支持呀🫖</p>`
 
 

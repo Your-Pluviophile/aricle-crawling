@@ -1,10 +1,5 @@
 package com.demo.article.Constant;
 
-/**
- * @Description 系统常量
- * @Author 小乌龟
- * @Date 2022/9/20 18:53
- */
 public class SystemConstant {
     /**
      * 数字

@@ -9,11 +9,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * @author 小王八
- * @date 2021/9/23
- * @Description:
- */
 @Configuration
 @MapperScan("com.demo.article.mapper")
 public class MybatisPlusConfig {

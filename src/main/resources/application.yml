@@ -1,6 +1,6 @@
 server:
   # 端口
-  port: 20229
+  port: 20223
   #服务路径：
   servlet:
     context-path: /article
@@ -8,9 +8,9 @@ spring:
   # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://服务器IP:3306/crawlarticle?useAffectedRows=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: 数据库用户名
-    password: 数据库密码
+    url: jdbc:mysql://49.235.68.71:3306/crawlarticle?useAffectedRows=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root123456!
 # Mybatis-plus配置
 mybatis-plus:
   #配置Mapper映射文件

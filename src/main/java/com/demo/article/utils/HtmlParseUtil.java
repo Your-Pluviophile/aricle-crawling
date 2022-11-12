@@ -7,7 +7,6 @@ import cn.hutool.core.util.StrUtil;
 
 import com.demo.article.Constant.SystemConstant;
 import com.demo.article.pojo.Article;
-import com.demo.article.pojo.ro.ToSaveArticle;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -20,20 +19,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @Description 爬虫
- * @Author 小乌龟
- * @Date 2022/8/1 17:35
- */
 @Slf4j
 public class HtmlParseUtil {
-    /**
-     * 爬取 网易新闻 文章
-     *
-     * @return List<ToSaveArticle> 爬虫保存文章数组
-     * @author zhangjunrong
-     * @date 2022/8/1 22:41
-     */
     public static List<Article> getArtByNetEase() {
         //目标 爬取 网易新闻文章链接
         //请求url
@@ -61,7 +48,7 @@ public class HtmlParseUtil {
                 if (ObjectUtil.isEmpty(articleSource)) {
                     continue;
                 }
-                //2022-08-01 12:01:14　来源: 央视新闻客户端 北京 举报 截取出文章作者
+                //截取出文章作者
                 String author = StrUtil.sub(articleSource, 24, -6);
                 //文章发表时间
                 LocalDateTime gmtModified = DateUtil.parseLocalDateTime(StrUtil.sub(articleSource, 0, 19), SystemConstant.DATE_FORMAT_YYYY_MM_DD_HH_MM_SS);

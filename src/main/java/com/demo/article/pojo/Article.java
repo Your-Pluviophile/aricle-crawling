@@ -10,14 +10,6 @@ import java.time.LocalDateTime;
 import lombok.*;
 import lombok.experimental.Accessors;
 
-/**
- * <p>
- * 
- * </p>
- *
- * @author 小王八
- * @since 2022-09-20
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
